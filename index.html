@@ -9,17 +9,105 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
     <!-- Custom style for the page -->
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <title>Portfolio website</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="bg-dark-custom text-white">
+    <header class="mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img class="img-fluid p-4" src="img/logo.png" alt="Site logo">
+          </div>
+          <div class="col-sm-9">
+            <h1 class="text-right pt-4">Felipe Freitas Fonseca</h1>
+            <h2 class="text-right">Full-Stack Developer</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="container">
+        <h3 class="mb-4">Featured Work</h2>
+        <div class="row mb-4">
+          <div class="col-sm-4 d-flex align-items-stretch">
+            <div class="card bg-green-custom border-dark mb-4">
+              <img src="img/movie-trailer-website-image.png" class="card-img-top" alt="Movie Website project image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Movie Website</h5>
+                <p class="card-text">A simple site that shows information about current most popular movies.</p>
+                <a href="https://github.com/Fipas/movie-trailer-website" class="btn btn-dark align-self-sm-end mt-auto">View project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex align-items-stretch">
+            <div class="card bg-green-custom border-dark mb-4">
+              <img src="img/portfolio-website-image.png" class="card-img-top" alt="Portfolio Site project image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Portfolio Site</h5>
+                <p class="card-text">Responsive website with images, links and descriptions for projects made in Udacity Full-Stack Nanodegree.</p>
+                <a href="https://github.com/Fipas/portfolio-website" class="btn btn-dark align-self-sm-end mt-auto">View project</a>
+              </div>
+            </div>
+          </div> 
+          <div class="col-sm-4 d-flex align-items-stretch">
+            <div class="card bg-green-custom border-dark mb-4">
+              <img src="img/log-analysis-image.png" class="card-img-top" alt="Portfolio Site project image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Log Analysis</h5>
+                <p class="card-text">Internal reporting tool that shows most liked articles for a newspaper website.</p>
+                <a href="#" class="btn btn-dark align-self-sm-end mt-auto">View project</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-sm-4 d-flex align-items-stretch">
+            <div class="card bg-green-custom mb-4 border-dark">
+              <img src="img/item-catalog-image.png" class="card-img-top" alt="Item Catalog project image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Item Catalog</h5>
+                <p class="card-text">Application that simulates an item calatog, with user registration and authentication.</p>
+                <a href="#" class="btn btn-dark align-self-sm-end mt-auto">View project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex align-items-stretch">
+            <div class="card bg-green-custom mb-4 border-dark">
+              <img src="img/neighborhood-map-image.png" class="card-img-top" alt="Neighborhood Map project image">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Neighborhood Map</h5>
+                <p class="card-text">Single page application that shows the map of a neighborhoog with map makers for most popular spots.</p>
+                <a href="#" class="btn btn-dark align-self-sm-end mt-auto">View project</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Fipas">Github <i class="fab fa-github-square"></i></a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/felipefreitasfonseca/">Linkedin <i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+        <p class="text-center">Created by Felipe Fonseca for Udacity Full-Stack Nanodegree.</p>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
   </body>
 </html>
